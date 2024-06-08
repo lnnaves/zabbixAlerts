@@ -1,0 +1,20 @@
+Automacao 
+
+> criar Media Type
+> type: script 
+> nome do script (scriptZabbix)
+> adicona 3 parametros: 
+    - {ALERT,SENDTO} -> para quem eu vou enviar o alerta 
+    - {ALERT,SUBJECT}
+    - {ALERT,MESSAGE} -> mensagem enviada 
+
+> Operation Zabbix script: 
+Problem started at {EVENT.TIME} on {EVENT.DATE}
+Problem name: {EVENT.NAME}
+Host: {HOST.NAME}
+Severity: {EVENT.SEVERITY}
+
+Original problem ID: {EVENT.ID}
+{TRIGGER.URL}
+
+> API venom 

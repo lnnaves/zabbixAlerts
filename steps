@@ -1,0 +1,18 @@
+mkdir /opt/zabbixAlerts 
+cd /opt/zabbixAlerts
+
+dnf install -y build-essential
+dnf install libgbm-dev 
+
+#instalando o navegador 
+
+
+#instalacao e atualizacao do node 
+
+
+#instalando dependencias
+npm install venom-bot 
+npm install express 
+npm install pm2  
+
+node appZabbix.js 
